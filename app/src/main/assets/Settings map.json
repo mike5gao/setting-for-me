@@ -1,0 +1,76 @@
+{
+  "actions": [
+    {
+      "action_id": "OPEN_WIFI_SETTINGS",
+      "keywords": ["wifi", "wi-fi", "network", "internet connection"],
+      "description": "Open Wi-Fi settings",
+      "execution": {
+        "intent_action": "android.settings.WIFI_SETTINGS"
+      }
+    },
+    {
+      "action_id": "OPEN_BLUETOOTH_SETTINGS",
+      "keywords": ["bluetooth", "bt", "pair device"],
+      "description": "Open Bluetooth settings",
+      "execution": {
+        "intent_action": "android.settings.BLUETOOTH_SETTINGS"
+      }
+    },
+    {
+      "action_id": "OPEN_DISPLAY_SETTINGS",
+      "keywords": ["display", "brightness", "screen", "too bright", "dark mode"],
+      "description": "Open Display settings",
+      "execution": {
+        "intent_action": "android.settings.DISPLAY_SETTINGS"
+      }
+    },
+    {
+      "action_id": "OPEN_BATTERY_SAVER_SETTINGS",
+      "keywords": ["battery", "power", "saver", "draining fast", "low power"],
+      "description": "Open Battery settings",
+      "execution": {
+        "intent_action": "android.settings.BATTERY_SAVER_SETTINGS"
+      }
+    },
+    {
+      "action_id": "OPEN_STORAGE_SETTINGS",
+      "keywords": ["storage", "memory", "full", "space", "running out of space", "clean up"],
+      "description": "Open Storage settings",
+      "execution": {
+        "intent_action": "android.settings.INTERNAL_STORAGE_SETTINGS"
+      }
+    },
+    {
+      "action_id": "OPEN_APPLICATION_SETTINGS",
+      "keywords": ["apps", "applications", "installed apps", "uninstall", "where are my apps"],
+      "description": "Open Application settings",
+      "execution": {
+        "intent_action": "android.settings.APPLICATION_SETTINGS"
+      }
+    },
+    {
+      "action_id": "OPEN_LOCATION_SETTINGS",
+      "keywords": ["location", "gps", "where am i", "map", "tracking"],
+      "description": "Open Location settings",
+      "execution": {
+        "intent_action": "android.settings.LOCATION_SOURCE_SETTINGS"
+      }
+    },
+    {
+      "action_id": "OPEN_SOUND_SETTINGS",
+      "keywords": ["sound", "volume", "ringtone", "silent", "vibrate", "too loud"],
+      "description": "Open Sound settings",
+      "execution": {
+        "intent_action": "android.settings.SOUND_SETTINGS"
+      }
+    },
+    {
+      "action_id": "OPEN_SYSTEM_UPDATE_SETTINGS",
+      "keywords": ["update", "system update", "software update", "slow after an update", "new version"],
+      "description": "Open System Update settings",
+      "execution": {
+        "intent_action": "android.settings.DEVICE_INFO_SETTINGS"
+      }
+    }
+  ]
+}
